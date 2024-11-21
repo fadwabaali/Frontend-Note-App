@@ -43,7 +43,7 @@ const SignUp = () => {
         setError(response.data.message);
         return;
       }
-      navigate('/login');
+      navigate('/');
 
     } catch (error) {
       if(error.response && error.response.data && error.response.data.message) {
