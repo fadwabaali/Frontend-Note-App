@@ -79,7 +79,7 @@ const SignUp = () => {
           {error && <p className="text-red-500 text-x5 pb-1"> {error} </p> }
           <button className="btn-primary" type="submit" >Create an account</button>
         </form>
-        <p>Already have an account? <Link to="/login" className="text-primary">Login</Link></p>    
+        <p>Already have an account? <Link to="/" className="text-primary">Login</Link></p>    
       </div>
     </section>
   )
