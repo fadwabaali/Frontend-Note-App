@@ -18,11 +18,11 @@ const Navbar = ({onSearchNote, handleClearSearch}) => {
         handleClearSearch();
     }
 
-    const navigate = useNavigate("/login");
+    const navigate = useNavigate("/");
     
     const onLogout = () => {
         localStorage.clear();
-        navigate("/login");
+        navigate("/");
     }
 
   return (
